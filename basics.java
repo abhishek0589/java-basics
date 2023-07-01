@@ -27,13 +27,12 @@ List < Integer > list = new ArrayList < > ();
 
 Map < Integer, Integer > map = new HashMap < > (); // no need to declare anything in diamond operator
 
-
 // a hashmap is array of linkedlist. Index of array is obtained using hashcode of each object. Value of each array is a linkedlist. 
 Class HashMap {
     LinkedList[] linked;
 }
 
-You can also call a hashmap as List of entries
+// You can also call a hashmap as List of entries
 List < Map.Entry < K, V >> list = new ArrayList < > (map.entrySet())
 
 
@@ -48,10 +47,8 @@ Collections.sort(list, (o1, o2) - > (o2 - o1)) // decending sort
 
 
 // Conversion
-
 String to int = Integer.parseint("1234")
 Character to int = Character.getNumericValue('a')
-
 
 
 // Subtle differences
@@ -93,10 +90,6 @@ PriorityQueue < Customobject > pq = new PriorityQueue < Customobject > (10, new 
         // second object- first object- DESCENDING
     }
 });
-
-
-
-
 
 // Date and time  
 
