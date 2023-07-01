@@ -1,6 +1,6 @@
 // Strings are maintained in String pool and are immutable to avoid password and connection related pointer refernce of char in the string, or -1
 
-// int indexOf(String s) -
+// int indexOf(String s) -index of character in string
 // boolean equals(Object) --test if two strings have the same characters
 // boolean equalsIgnoreCase(Object) --as above, but ignoring case 
 // String toLowerCase() --return a new String, lowercase -
