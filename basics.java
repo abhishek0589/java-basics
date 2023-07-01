@@ -7,21 +7,21 @@
 // String substring(int begin, int end) --return a new String made of the begin..end - 1 substring from the original
 
 String.a = "abc";
+
+// length
 a.length();
 
-// Array 
-
+// Array initialization
 int[] ints = new int[] {1,2,3};
-String[] strings = new Strings[] {'a','b','c'};
-String[] arr = {“a”, “b”,“c”};
+String[] strings = new Strings[] {'a', 'b', 'c'};
+String[] arr = {"a", "b", "c"};
 int[] arr = {1,2,3,4,5};
-char[] arr = {‘a’,’b’,‘c’};
+char[] arr = {'a', 'b', 'c'};
 
 // get array length
 // a.length.not a.length() or a.size()
 
 // Collections
-
 List < Integer > list = Arrays.asList(1, 2, 3);
 List < Integer > list = new ArrayList < > ();
 
